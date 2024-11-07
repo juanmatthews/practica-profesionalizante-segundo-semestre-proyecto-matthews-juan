@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'Rubik';
+    src: url(../assets/Rubik-Regular.ttf);
+}
+@font-face{
+    font-family: 'Rubik-Heavy';
+    src: url(../assets/Rubik-Bold.ttf);
+}
+@font-face{
+    font-family: 'Rubik-Light';
+    src: url(../assets/Rubik-Light.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-wrap{
+    width: 100%;
+    background-color: #e1e0e0; 
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 1500px;
+    background-color: #e1e0e0; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.caja{
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+    font-family: 'Rubik';
+    
+}
+.caja img{
+    width: 358px;
+    height: 247px;
+    border-radius: 3px;
+}
+.titulo-tarjeta{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.precio-auto{
+    color: #B0313F;
+    margin-top: 5px;
+}
+@media (max-width: 600px){
+    .caja{
+        margin: 10px;
+    }
+    .caja img {
+        height: 198px;
+        width: 286px;
+    }
+}

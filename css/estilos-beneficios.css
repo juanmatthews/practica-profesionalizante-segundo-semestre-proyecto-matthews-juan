@@ -1,0 +1,63 @@
+@font-face{
+    font-family: 'Rubik';
+    src: url(../assets/Rubik-Regular.ttf);
+}
+@font-face{
+    font-family: 'Rubik-Heavy';
+    src: url(../assets/Rubik-Bold.ttf);
+}
+@font-face{
+    font-family: 'Rubik-Light';
+    src: url(../assets/Rubik-Light.ttf);
+}
+
+main{
+    background-color: #E5E5E5;
+    
+}
+
+.promo{
+    padding-top: 70px;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 50px;
+    
+}
+.promo img{
+    height: 300px;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+.texto-promo{
+    padding-top: 15px;
+    h2{
+        padding-bottom: 15px;
+        font-family: 'Rubik-Light';
+        color: #626262;
+        
+    }
+    h4{
+        padding-bottom: 8px;
+        font-family: 'Rubik';
+        color: #626262;
+        font-weight: lighter;
+    }
+}
+
+@media (max-width: 1000px) {
+    .promo{
+        display: block;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 500px) {
+    .promo img {
+        height: 200px;
+    }
+    .promo{
+        text-align: center;
+        
+    }
+}

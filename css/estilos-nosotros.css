@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'Rubik';
+    src: url(../assets/Rubik-Regular.ttf);
+}
+@font-face{
+    font-family: 'Rubik-Heavy';
+    src: url(../assets/Rubik-Bold.ttf);
+}
+@font-face{
+    font-family: 'Rubik-Light';
+    src: url(../assets/Rubik-Light.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #e1e0e0; 
+    
+}
+.separador-header-main{
+    padding-bottom: 150px;
+}
+.banner-main-texto{
+    text-align: center;
+    padding-bottom: 6rem;
+    font-family: 'Rubik';
+}
+.banner-main-texto span{
+    color: #B0313F;
+}
+.banner-main{
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.equipo-de-trabajo{
+    display: flex;
+    justify-content: center;
+}
+.container-parrafo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.parrafo{
+    max-width: 1200px;
+    font-family: 'Rubik';
+    text-align:center;
+    padding-bottom: 60px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.parrafo p{
+    padding-bottom: 1rem;
+    
+}
+
+@media (max-width: 1150px ){
+    .equipo-de-trabajo img{
+        height: 400px;
+    }
+}
+@media (max-width: 800px ){
+    .equipo-de-trabajo img{
+        height: 300px;
+    }
+}
+@media (max-width: 500px ){
+    .equipo-de-trabajo img{
+        height: 200px;
+    }
+}

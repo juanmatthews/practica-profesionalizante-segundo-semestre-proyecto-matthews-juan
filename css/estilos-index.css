@@ -1,0 +1,240 @@
+@font-face{
+    font-family: 'Rubik';
+    src: url(../assets/Rubik-Regular.ttf);
+}
+@font-face{
+    font-family: 'Rubik-Heavy';
+    src: url(../assets/Rubik-Bold.ttf);
+}
+@font-face{
+    font-family: 'Rubik-Light';
+    src: url(../assets/Rubik-Light.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-de-botones{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    background-color: #f3f3f3;
+ 
+}
+.contenedor-boton1{
+width: 33%;
+background-image: url(../assets/auto-tarjeta.jpg);
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+.boton1 a :hover{
+    filter: brightness(0) invert(1);
+}
+.contenedor-boton2{
+width: 33%;
+background-image: url(../assets/moto-tarjeta.jpg);
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+.boton2 a :hover{
+    filter: brightness(0) invert(1);
+}
+.contenedor-boton3{
+width: 33%;
+background-image: url(../assets/camioneta-tarjeta2.jpg);
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+.boton3 a :hover{
+    filter: brightness(0) invert(1);
+}
+.tarjeta-barra-de-diseño{
+    height: 49px;
+    background-color: #f3f3f3;
+}
+
+.titulo-presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-titulo-presentacion{
+    font-family: 'Rubik-Heavy';
+}
+.imagen-titulo-presentacion img{
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contenedor-presentacion{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.texto-cuerpo-presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik-Light';
+    padding: 5px;
+
+}
+.supra-container-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    background-color: white;
+    padding-bottom: 100px;
+}
+.container-slider{
+    max-width: 1200px;
+    width: 95%;
+}
+
+.marcas-slider-contenedor .lista-de-imagenes {
+     display: grid;
+     gap: 18px;
+     font-size: 0;
+     overflow-x: auto;
+     grid-template-columns: repeat(10, 1fr);
+}
+.marcas-slider-contenedor .lista-de-imagenes .imagen-item{
+    height: 100px;
+    width: 137px;
+    
+}
+@media (max-width: 1800px){
+    .contenedor-de-botones{
+        height: 350px;
+    }
+}
+@media (max-width: 1500px){
+    .contenedor-de-botones{
+        height: 300px;
+    }
+    .texto-cuerpo-presentacion{
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center !important;
+    }
+}
+@media (max-width: 1350px){
+    .contenedor-de-botones{
+        height: 250px;
+    }
+    .texto-cuerpo-presentacion{
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 1150px){
+    .contenedor-de-botones{
+        display: flex;
+        flex-wrap: wrap;
+        
+        height: 1350px;
+       
+    }
+    .contenedor-boton1{
+        
+        height: 450px;
+        width: 750px;
+    }
+    .contenedor-boton2{
+        height: 450px;
+        width: 750px;
+    }
+    .contenedor-boton3{
+        height: 450px;
+        width: 750px;
+    }
+    .texto-cuerpo-presentacion{
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center !important;
+    }
+}
+@media (max-width: 800px){
+    .contenedor-de-botones{
+        display: flex;
+        flex-wrap: wrap;
+        height: 990px;
+       
+    }
+    .contenedor-boton1{
+        
+        height: 330px;
+        width: 550px;
+    }
+    .contenedor-boton2{
+        height: 330px;
+        width: 550px;
+    }
+    .contenedor-boton3{
+        height: 330px;
+        width: 550px;
+    }
+    .texto-cuerpo-presentacion{
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center !important;
+    }
+    .texto-titulo-presentacion{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (max-width: 600px){
+    .contenedor-de-botones{
+        display: flex;
+        flex-wrap: wrap;
+        height: 720px;
+       
+    }
+    .contenedor-boton1{
+        
+        height: 240px;
+        width: 400px;
+    }
+    .contenedor-boton2{
+        height: 240px;
+        width: 400px;
+    }
+    .contenedor-boton3{
+        height: 240px;
+        width: 400px;
+    }
+    .texto-cuerpo-presentacion{
+        padding-left: 5%;
+        padding-right: 5%;
+        display: block;
+        text-align: center;
+    }
+    .titulo-presentacion{
+        padding-left: 5%;
+        padding-right: 5%;
+        display:block;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+}
