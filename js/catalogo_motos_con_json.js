@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function fetchData() {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', '../json/catalogo.json', true);
+    xhr.open('GET', '../js/catalogo.json', true);
 
     xhr.onload = function() {
       
